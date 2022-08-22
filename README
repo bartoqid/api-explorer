@@ -1,0 +1,9 @@
+This is an example of python3 script to interact with Palo Alto Networks CDL via the API Explorer.
+This code is not secure and only intended to be used in a lab or test environment.
+You will need the developer token, which you can get from the API Explorer app on Palo Alto Networks Cortex Hub
+
+This script will extract the last 5 successful GlobalProtect users
+
+python3 query.py
+
+Modify the .env with your developer token
